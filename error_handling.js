@@ -9,3 +9,12 @@
     console.log('Goodbye');
   }
 
+//3
+var x;
+if (x === null) {
+    console.log("null");
+} else if (x === undefined) {
+    console.log("undefined");
+} else {
+    console.log("ok");
+}
