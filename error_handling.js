@@ -22,3 +22,13 @@ if (x === null) {
 //4
 throw new Error();
 console.log("Hello");
+
+//5
+(10).toString(100);  //RANGE ERROR
+
+//6
+try {
+    Number(5).toPrecision(300)
+} catch (e) {
+    console.log("There was an error")
+} 
