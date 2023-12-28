@@ -18,3 +18,7 @@ if (x === null) {
 } else {
     console.log("ok");
 }
+
+//4
+throw new Error();
+console.log("Hello");
