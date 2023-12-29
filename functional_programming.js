@@ -1,4 +1,5 @@
-//FUNCTIONAL PROGRAMMING ( Data exists outside of functions, and functions only work on that data. )
+/*FUNCTIONAL PROGRAMMING 
+(Data exists outside of functions, and functions only work on that data.)*/
 
 var currencyOne=100;
 var currencyTwo=0;
