@@ -11,18 +11,14 @@ console.log(assistantManager.socialSkills);
 console.log(assistantManager.streetSmart);
 console.log(assistantManager.health);
 
-// Adds new properties
+// Adds new property using Dot Notation
 assistantManager.nextAchievement = 'got promoted';
 console.log(assistantManager.nextAchievement);
 
-
-// adds a new propertie and console logs using bracket notation 
+// Adds new property using bracket notation 
 assistantManager["age"] = 27;
-
 console.log(assistantManager['age']);
 
-
-// assign a new value
 assistantManager.nextAchievement = 'got promoted again';
 assistantManager["age"] = 24;
 
