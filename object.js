@@ -11,10 +11,8 @@ console.log(assistantManager.socialSkills);
 console.log(assistantManager.streetSmart);
 console.log(assistantManager.health);
 
-
-// Adds a new properties and console logs using dot notation
+// Adds new properties
 assistantManager.nextAchievement = 'got promoted';
-
 console.log(assistantManager.nextAchievement);
 
 
